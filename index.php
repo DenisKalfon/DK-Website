@@ -10,6 +10,9 @@ and open the template in the editor.
         <title>Denis KALFON - Intégrateur Web Lyon</title>
         <link rel="stylesheet" type="text/css" media="screen" href="/DK-Website/css/bootstrap.min.css"  />
         <link rel="stylesheet" type="text/css" media="screen" href="/DK-Website/css/font-awesome.min.css"  />
+        <link rel="stylesheet" href="http://elusiveicons.com/assets/elusive-icons/css/elusive-icons.css">
+        <link rel="stylesheet" type="text/css" media="screen" href="/DK-Website/css/slick.css">
+        <link rel="stylesheet" type="text/css" media="screen" href="/DK-Website/css/owl.theme.css">
         <link rel="stylesheet" type="text/css" media="screen" href="/DK-Website/css/style.css"  />
     </head>
     <body>  
@@ -28,11 +31,12 @@ and open the template in the editor.
                     </div>
                     <div class="collapse navbar-collapse">
                         <ul class="nav navbar-nav navbar-right">
-                            <li><a class="scrollTo" href="#">&Agrave; PROPOS</a></li>
-                            <li><a class="scrollTo" href="#">PORTFOLIO</a></li>
-                            <li><a class="scrollTo" href="#">CONTACT</a></li>
-                            <li><a class="scrollTo" href="https://www.linkedin.com/hp/?dnr=IKFeIyQHcyV4pJVgI5bvtyiPBXBds_wAnn8s"><i class="fa fa-linkedin"></i></a></li>
-                            <li><a class="scrollTo" href="https://github.com/DenisKalfon"><i class="fa fa-git"></i></a></li>
+                            <li><a class="scrollTo" href="#section-apropos">&Agrave; PROPOS</a></li>
+                            <li><a class="scrollTo" href="#section-portfolio">PORTFOLIO</a></li>
+                            <li><a class="scrollTo" href="#section-contact">CONTACT</a></li>
+                            <li><a href="http://www.viadeo.com/profile/0021xsq019x37qbk" target="_blank"><i class="el el-viadeo"></i></a></li>
+                            <li><a href="https://www.linkedin.com/hp/?dnr=IKFeIyQHcyV4pJVgI5bvtyiPBXBds_wAnn8s" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="https://github.com/DenisKalfon" target="_blank"><i class="fa fa-git"></i></a></li>
                         </ul>
                     </div>
                 </div>
@@ -50,7 +54,7 @@ and open the template in the editor.
                     </p>
                     <p>
                         Je suis issu d'une formation orientée sur les technologies Web. C'est pour cela que j'ai choisi de devenir Intégrateur Web.
-                        Autonome, réactif et rigoureux, j'aime donner vie aux maquettes que fournissent les Infographistent. De plus, e suis soucieux de réaliser un travail de qualité, tout en respectant au maximum les standards du web
+                        Autonome, réactif et rigoureux, j'aime donner vie aux maquettes que fournissent les Infographistent. De plus, je suis soucieux de réaliser un travail de qualité, tout en respectant au maximum les standards du web
                     </p>
                     <p>
                         Quand je ne suis pas en train de coder, je joue de la guitare, écoute de la musique ou essaie de terminer ma collection de jeux-vidéos.
@@ -137,6 +141,13 @@ and open the template in the editor.
         <section class="row" id="section-portfolio">
             <div class="container">
                 <h3>PORTFOLIO</h3>
+                <div class="responsive-carousel">
+                    <div><img src="/DK-Website/img/portfolio/modz-small.jpg" alt="..." class="img-responsive" /></div>
+                    <div><img src="/DK-Website/img/portfolio/mydresscode-small.jpg" alt="..." class="img-responsive" /></div>
+                    <div><img src="/DK-Website/img/portfolio/agiir-small.jpg" alt="..." class="img-responsive" /></div>
+                    <div><img src="/DK-Website/img/portfolio/ampa-small.jpg" alt="..." class="img-responsive" /></div>
+                    <div><img src="/DK-Website/img/portfolio/asnvbr-small.jpg" alt="..." class="img-responsive" /></div>
+                </div>
             </div>
         </section>
         <section class="row" id="section-contact">
@@ -149,10 +160,11 @@ and open the template in the editor.
         </aside>
         <footer>
             <div class="container">
-                
+                <small>© 2015 • Tous droits réservés • Denis KALFON</small>
             </div>
         </footer>
         <script src="/DK-Website/js/jquery-1.11.2.min.js"></script>
+        <script src="/DK-Website/js/slick.min.js"></script>
         <script src="/DK-Website/js/bootstrap.min.js"></script>
         <script src="/DK-Website/js/scripts.js"></script>
     </body>
