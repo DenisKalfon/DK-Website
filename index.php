@@ -8,9 +8,9 @@ and open the template in the editor.
     <head>
         <meta charset="UTF-8">
         <title>Denis KALFON - Intégrateur Web Lyon</title>
-        <link rel="stylesheet" type="text/css" media="screen" href="/DK-Site/css/bootstrap.min.css"  />
-        <link rel="stylesheet" type="text/css" media="screen" href="/DK-Site/css/font-awesome.min.css"  />
-        <link rel="stylesheet" type="text/css" media="screen" href="/DK-Site/css/style.css"  />
+        <link rel="stylesheet" type="text/css" media="screen" href="/DK-Website/css/bootstrap.min.css"  />
+        <link rel="stylesheet" type="text/css" media="screen" href="/DK-Website/css/font-awesome.min.css"  />
+        <link rel="stylesheet" type="text/css" media="screen" href="/DK-Website/css/style.css"  />
     </head>
     <body>
         <header>
@@ -62,8 +62,8 @@ and open the template in the editor.
                 
             </div>
         </footer>
-        <script src="/DK-Site/js/jquery-1.11.2.min.js"></script>
-        <script src="/DK-Site/js/bootstrap.min.js"></script>
-        <script src="/DK-Site/js/scripts.js"></script>
+        <script src="/DK-Website/js/jquery-1.11.2.min.js"></script>
+        <script src="/DK-Website/js/bootstrap.min.js"></script>
+        <script src="/DK-Website/js/scripts.js"></script>
     </body>
 </html>
