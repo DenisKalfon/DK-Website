@@ -1,7 +1,11 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
 body{font-family: 'Open Sans', 'Arial', 'Trebuchet MS', 'Verdana', sans-serif;background-color: #F9F9F9;}
-h1, h2, h3, h4 {font-family:'Roboto', 'Arial', 'Trebuchet MS', 'Verdana', sans-serif;font-weight: bold;}
+section{padding: 60px 0}
+h1, h2, h3, h4, h5 {font-family:'Roboto', 'Arial', 'Trebuchet MS', 'Verdana', sans-serif;font-weight: bold;}
+h3{font-size: 36px;color: #0055A0;}
+.container{max-width:768px;}
+.no-padd{padding:0}
 .navbar-default,footer{background-color:#0055A0;color:#fff;}
 .navbar-default h1{margin-bottom:0;margin-top: 5px;font-size: 26px;}
 .navbar-default h2{margin-top: 0;font-size: 20px}
