@@ -14,15 +14,28 @@ h3{font-size: 36px;color: #0055A0;}
 .navbar-default .navbar-nav > li > a:hover{background-color: #fff;color: #101010;-webkit-box-shadow: inset 0px -1px 10px 0px rgba(99,99,99,1);
 -moz-box-shadow: inset 0px -1px 10px 0px rgba(99,99,99,1);
 box-shadow: inset 0px -1px 10px 0px rgba(99,99,99,1);}
-.to-top
+.nav-vertical
 {
+    width:50px;
+    text-align: center;
     display:none;
     position:fixed;
     right:10px;
-    bottom:10px;
+    bottom:50%;
 }
+.nav-vertical a{color:#fff;display: block;background-color:#0055A0;cursor: pointer;width:26px;height:26px;border-radius: 13px;padding-top:3px;margin-bottom:1px}
+.nav-vertical a:hover{background-color:#000;}
 .responsive-carousel .slick-slide{margin:5px;border:solid 1px #000;position: relative;}
 .legend{display:none;position:absolute;background-color: #fff;opacity: 0.9;top:0;height: 100%}
-.legend > h5, .legend > p{min-height: 50px}
+.legend > h5, .legend > p{min-height: 50px;}
 .legend > a{cursor: pointer;display: block}
 .modal-header .close{margin-top: -10px;}
+.form-contact .btn{border-radius: 0;font-weight: bold;font-size: 16px;}
+.form-contact .btn-default{color:#fff;background-color: #0055A0;border: none;}
+.form-contact .btn-default:hover{background-color: #000;}
+#section-contact h5{font-size: 16px;text-align: center}
+.contact-rs{margin-left:-15px;}
+.contact-rs > li {list-style: none;float: left}
+.contact-rs > li > a{background-color: #0055a0;color:#fff;display: block;width:70px;height:70px;padding-top: 7px;font-size: 36px;text-align: center;}
+.contact-rs > li > a:hover{background-color: #000}
+.rs-mid{margin: 0 10px}

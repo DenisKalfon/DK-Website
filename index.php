@@ -145,7 +145,7 @@ and open the template in the editor.
                 <h3>PORTFOLIO</h3>
                 <div class="responsive-carousel">
                     <div>
-                        <img src="/DK-Website/img/portfolio/modz-small.jpg" alt="..." class="img-responsive" />
+                        <img src="/DK-Website/img/portfolio/modz-small.jpg" alt="Vignette Modz" class="img-responsive" />
                         <div class="legend col-xs-12">
                             <h5>Modz - Société E-Commerce</h5>
                             <p>HTML - CSS - jQuery - Responsive Design</p>
@@ -153,7 +153,7 @@ and open the template in the editor.
                         </div>
                     </div>
                     <div>
-                        <img src="/DK-Website/img/portfolio/mydresscode-small.jpg" alt="..." class="img-responsive" />
+                        <img src="/DK-Website/img/portfolio/mydresscode-small.jpg" alt="Vignette Mydresscode" class="img-responsive" />
                         <div class="legend col-xs-12">
                             <h5>Mydresscode - Société E-Commerce</h5>
                             <p>HTML - CSS - jQuery</p>
@@ -161,7 +161,7 @@ and open the template in the editor.
                         </div>
                     </div>
                     <div>
-                        <img src="/DK-Website/img/portfolio/agiir-small.jpg" alt="..." class="img-responsive" />
+                        <img src="/DK-Website/img/portfolio/agiir-small.jpg" alt="Vignette Agiir" class="img-responsive" />
                         <div class="legend col-xs-12">
                             <h5>Agiir Network - Opérateur de Services</h5>
                             <p>PHP5 - Zend Framework - jQuery</p>
@@ -169,7 +169,7 @@ and open the template in the editor.
                         </div>
                     </div>
                     <div>
-                        <img src="/DK-Website/img/portfolio/ampa-small.jpg" alt="..." class="img-responsive" />
+                        <img src="/DK-Website/img/portfolio/ampa-small.jpg" alt="Vignette AMPA" class="img-responsive" />
                         <div class="legend col-xs-12">
                             <h5>A.M.P.A - Organisme Publique</h5>
                             <p>HTML - CSS - jQuery - PHP5</p>
@@ -177,7 +177,7 @@ and open the template in the editor.
                         </div>
                     </div>
                     <div>
-                        <img src="/DK-Website/img/portfolio/asnvbr-small.jpg" alt="..." class="img-responsive" />
+                        <img src="/DK-Website/img/portfolio/asnvbr-small.jpg" alt="Vignette ASNVBR" class="img-responsive" />
                         <div class="legend col-xs-12">
                             <h5>A.S.N.V.B.R - Association</h5>
                             <p>PHP5 - Joomla</p>
@@ -193,7 +193,7 @@ and open the template in the editor.
                             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                         </div>
                         <div class="modal-body">
-                            <p><img src="/DK-Website/img/portfolio/modz.jpg" alt="..." class="img-responsive" /></p>
+                            <p><img src="/DK-Website/img/portfolio/modz.jpg" alt="Modz" class="img-responsive" /></p>
                         </div>
                         <div class="modal-footer"></div>
                     </div>
@@ -206,7 +206,7 @@ and open the template in the editor.
                             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                         </div>
                         <div class="modal-body">
-                            <p><img src="/DK-Website/img/portfolio/mydresscode.jpg" alt="..." class="img-responsive" /></p>
+                            <p><img src="/DK-Website/img/portfolio/mydresscode.jpg" alt="Mydresccode" class="img-responsive" /></p>
                         </div>
                         <div class="modal-footer"></div>
                     </div>
@@ -219,7 +219,7 @@ and open the template in the editor.
                             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                         </div>
                         <div class="modal-body">
-                            <p><img src="/DK-Website/img/portfolio/agiir.jpg" alt="..." class="img-responsive" /></p>
+                            <p><img src="/DK-Website/img/portfolio/agiir.jpg" alt="Agiir" class="img-responsive" /></p>
                         </div>
                         <div class="modal-footer"></div>
                     </div>
@@ -232,7 +232,7 @@ and open the template in the editor.
                             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                         </div>
                         <div class="modal-body">
-                            <p><img src="/DK-Website/img/portfolio/ampa.jpg" alt="..." class="img-responsive" /></p>
+                            <p><img src="/DK-Website/img/portfolio/ampa.jpg" alt="AMPA" class="img-responsive" /></p>
                         </div>
                         <div class="modal-footer"></div>
                     </div>
@@ -245,7 +245,7 @@ and open the template in the editor.
                             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                         </div>
                         <div class="modal-body">
-                            <p><img src="/DK-Website/img/portfolio/asnvbr.jpg" alt="..." class="img-responsive" /></p>
+                            <p><img src="/DK-Website/img/portfolio/asnvbr.jpg" alt="ASNVBR" class="img-responsive" /></p>
                         </div>
                         <div class="modal-footer"></div>
                     </div>
@@ -255,33 +255,44 @@ and open the template in the editor.
         <section class="row" id="section-contact">
             <div class="container">
                 <h3>CONTACT</h3>
-<form class="form-contact" action="process.php" method="POST">
-  <div class="form-group">
-    <label for="contact-nom">Nom :</label>
-    <input type="text" class="form-control" id="contact-nom" name="contact-nom" placeholder="Saisissez votre nom">
-  </div>
-  <div class="form-group">
-    <label for="contact-adress">Adresse e-mail :</label>
-    <input type="email" class="form-control" id="contact-adress" name="contact-adress" placeholder="Saisissez votre adresse e-mail">
-    <span id="msg_nom"></span>
-  </div>
-  <div class="form-group">
-    <label for="contact-objet">Objet :</label>
-    <input type="text" class="form-control" id="contact-objet" name="contact-objet" placeholder="Saisissez votre objet">
-    <span id="msg_sujet"></span>
-  </div>
-     <div class="form-group">
-    <label for="contact-objet">Message :</label>
-    <textarea class="form-control" id="contact-message" name="contact-message"></textarea>
-    <span id="msg_message"></span>
-  </div>
-  <button type="submit" class="btn btn-default">Envoyer</button>
-</form>
-                <span id="msg_all"></span>
+                <form class="form-contact col-xs-7 pull-left" action="process.php" method="POST">
+                    <div class="form-group">
+                        <label for="contact-nom">Nom :</label>
+                        <input type="text" class="form-control" id="contact-nom" name="contact-nom" placeholder="Saisissez votre nom">
+                    </div>
+                    <div class="form-group">
+                        <label for="contact-adress">Adresse e-mail :</label>
+                        <input type="email" class="form-control" id="contact-adress" name="contact-adress" placeholder="Saisissez votre adresse e-mail">
+                        <span id="msg_nom"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="contact-objet">Objet :</label>
+                        <input type="text" class="form-control" id="contact-objet" name="contact-objet" placeholder="Saisissez votre objet">
+                        <span id="msg_sujet"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="contact-objet">Message :</label>
+                        <textarea class="form-control" id="contact-message" name="contact-message"></textarea>
+                        <span id="msg_message"></span>
+                    </div>
+                    <button type="submit" class="btn btn-default">Envoyer</button>
+                    <span id="msg_all"></span>
+                </form>
+                <div class="col-xs-5 pull-right">
+                    <h5>Me contacter sur les réseaux sociaux</h5>
+                    <ul class="contact-rs">
+                        <li><a href="http://www.viadeo.com/profile/0021xsq019x37qbk" target="_blank"><i class="el el-viadeo"></i></a></li>
+                        <li><a class="rs-mid" href="https://www.linkedin.com/hp/?dnr=IKFeIyQHcyV4pJVgI5bvtyiPBXBds_wAnn8s" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="https://github.com/DenisKalfon" target="_blank"><i class="fa fa-git"></i></a></li>
+                    </ul>
+                </div>
             </div>
         </section>
-        <aside class="to-top">
-            toto
+        <aside class="nav-vertical">
+            <a class="to-top"><i class="fa fa-arrow-up"></i></a>
+            <a class="scrollTo" href="#section-apropos"><i class="fa fa-user"></i></a>
+            <a class="scrollTo" href="#section-portfolio"><i class="fa fa-picture-o"></i></a>
+            <a class="scrollTo" href="#section-contact"><i class="fa fa-envelope-o"></i></a>
         </aside>
         <footer>
             <div class="container">
