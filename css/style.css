@@ -21,4 +21,8 @@ box-shadow: inset 0px -1px 10px 0px rgba(99,99,99,1);}
     right:10px;
     bottom:10px;
 }
-.responsive-carousel .slick-slide{margin:5px;border:solid 1px #000}
+.responsive-carousel .slick-slide{margin:5px;border:solid 1px #000;position: relative;}
+.legend{display:none;position:absolute;background-color: #fff;opacity: 0.9;top:0;height: 100%}
+.legend > h5, .legend > p{min-height: 50px}
+.legend > a{cursor: pointer;display: block}
+.modal-header .close{margin-top: -10px;}
